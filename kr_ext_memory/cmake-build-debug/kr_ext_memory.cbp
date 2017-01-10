@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="kr_ext_memory"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kr_ext_memory">
+				<Option output="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/kr_ext_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 kr_ext_memory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kr_ext_memory/fast">
+				<Option output="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/kr_ext_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 kr_ext_memory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/igor/ClionProjects/kr_ext_memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/aplusb.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/connected_component.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/generate.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/long_sum.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/main.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/matrix_mult_vector.cpp">
+			<Option target="kr_ext_memory"/>
+		</Unit>
+		<Unit filename="/home/igor/ClionProjects/kr_ext_memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
